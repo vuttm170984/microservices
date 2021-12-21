@@ -1,11 +1,11 @@
-package com.vuttm.RatingsService.resources;
+package com.vuttm.ratingsservice.resources;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.vuttm.RatingsService.model.Rating;
-import com.vuttm.RatingsService.model.UserRating;
+import com.vuttm.ratingsservice.models.Rating;
+import com.vuttm.ratingsservice.models.UserRating;
 
 @RestController
 @RequestMapping("/api/ratings")

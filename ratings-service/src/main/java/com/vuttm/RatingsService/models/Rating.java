@@ -1,4 +1,4 @@
-package com.vuttm.RatingsService.model;
+package com.vuttm.ratingsservice.models;
 
 public class Rating {
 

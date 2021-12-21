@@ -1,4 +1,4 @@
-package com.vuttm.RatingsService;
+package com.vuttm.ratingsservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

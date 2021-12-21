@@ -1,4 +1,4 @@
-package com.vuttm.RatingsService.model;
+package com.vuttm.ratingsservice.models;
 
 import java.util.Arrays;
 import java.util.List;
