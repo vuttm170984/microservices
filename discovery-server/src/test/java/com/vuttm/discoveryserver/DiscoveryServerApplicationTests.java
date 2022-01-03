@@ -1,10 +1,10 @@
-package com.vuttm.RatingsService;
+package com.vuttm.discoveryserver;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RatingsServiceApplicationTests {
+class DiscoveryServerApplicationTests {
 
 	@Test
 	void contextLoads() {
