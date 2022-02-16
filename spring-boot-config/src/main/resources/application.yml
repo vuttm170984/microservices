@@ -1,0 +1,13 @@
+# conf.greeting:Hello
+conf:
+    app-name: Configuration app
+    app-description: Welcome to ${conf.app-name}
+    app-list-values: one,two,three
+    values: "{conStr: 'This is connection string', user: 'username', pass: 'password'}"
+
+db:
+    connection: connection
+    host: http://localhost
+    port: 3306
+
+management.endpoints.web.exposure.include: "*"
