@@ -1,0 +1,10 @@
+conf:
+    name: Configuration app from config server
+    description: Welcome to ${conf.name}
+    listValues: one,two,three
+    values: "{conStr: 'This is connection string', user: 'username', pass: 'password'}"
+
+db:
+    connection: connection-string
+    host: 172.0.0.1
+    port: 3306
