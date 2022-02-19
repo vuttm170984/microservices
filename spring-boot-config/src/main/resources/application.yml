@@ -11,4 +11,11 @@ db:
 
 management.endpoints.web.exposure.include: "*"
 
-spring.profiles.active: test
+spring:
+   # profiles:
+      # active: test
+   cloud:
+      config:
+         uri: http://localhost:8888
+   application:
+         name: spring-boot-config
